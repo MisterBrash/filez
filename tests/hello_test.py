@@ -1,5 +1,5 @@
 import main;
 
 def test_hello():
-    assert hello.hello_world() == "Hello World!"
+    assert main.hello_world() == "Hello World!"
   
