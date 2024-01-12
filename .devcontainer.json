@@ -13,7 +13,8 @@
         "ms-python.python",
         "vsls-contrib.gitdoc",
         "MS-vsliveshare.vsliveshare",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "VisualStudioExptTeam.vscodeintellicode"
       ],
       "unwantedRecommendations": [
         "Codeium.codeium",
