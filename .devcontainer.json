@@ -13,8 +13,7 @@
         "ms-python.python",
         "vsls-contrib.gitdoc",
         "MS-vsliveshare.vsliveshare",
-        "dbaeumer.vscode-eslint",
-        "VisualStudioExptTeam.vscodeintellicode"
+        "dbaeumer.vscode-eslint"
       ],
       "unwantedRecommendations": [
         "Codeium.codeium",
@@ -23,7 +22,8 @@
         "github.copilot-nightly",
         "ms-toolsai.vscode-jupyter-cell-tags",
         "tabnine.tabnine-vscode",
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+        "VisualStudioExptTeam.vscodeintellicode"
       ],
       "settings": {
         "[python]": {
@@ -67,7 +67,8 @@
           "github.copilot",
           "github.copilot-nightly",
           "ms-toolsai.vscode-jupyter-cell-tags",
-          "tabnine.tabnine-vscode"
+          "tabnine.tabnine-vscode",
+          "VisualStudioExptTeam.vscodeintellicode"
         ],
         "extensions.ignoreRecommendations": true,
         "files.autoSave": "afterDelay",
