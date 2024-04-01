@@ -12,20 +12,20 @@ function ac(r, h) {
 
 test('Radius 5, Height 9', () => {
   let c = round(ac(5, 9), 4)
-  expect(round(w.area_cylinder(5, 9), 4).toBe(c);
+  expect(round(w.area_cylinder(5, 9), 4)).toBe(c);
 });
 
 test('Radius 1, Height 1', () => {
   let c = round(ac(1, 1), 4)
-  expect(round(w.area_cylinder(1, 1), 4).toBe(c);
+  expect(round(w.area_cylinder(1, 1), 4)).toBe(c);
 });
 
 test('Radius 9, Height 5', () => {
   let c = round(ac(9, 5), 4)
-  expect(round(w.area_cylinder(9, 5), 4).toBe(c);
+  expect(round(w.area_cylinder(9, 5), 4)).toBe(c);
 });
 
 test('Radius 6.123, Height 14.876', () => {
   let c = round(ac(6.123, 14.876), 4)
-  expect(round(w.area_cylinder(6.123, 14.876), 4).toBe(c);
+  expect(round(w.area_cylinder(6.123, 14.876), 4)).toBe(c);
 });
