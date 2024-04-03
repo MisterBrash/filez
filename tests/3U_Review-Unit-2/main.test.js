@@ -33,7 +33,7 @@ test('Pythag Simple', () => {
 });
 
 test('Pythag not so simple', () => {
-  expect(m.pythag(13, 34).toBe(36.4);
+  expect(m.pythag(13, 34).toBe(36.40055);
 });
 
 test('Area Rectangle 1', () => {
