@@ -13,7 +13,7 @@ test('Tricky concat', () => {
 });
 
 test('Tricky concat 2', () => {
-  expect(m.specific_letter(" ", " ")).toBe("  ");
+  expect(m.concat(" ", " ")).toBe("  ");
 });
 
 test('Delta 1', () => {
@@ -57,7 +57,7 @@ test('Slope 1', () => {
 });
 
 test('Slope 2', () => {
-  expect(m.slope(5, 6, -7, 8)).toBe(0.2);
+  expect(m.slope(5, 6, -7, 8)).toBe(-0.2);
 });
 
 test('Distance 1', () => {
